@@ -1,0 +1,77 @@
+settings: 
+dataset = wine.csv
+'SwarmSize', 20, 'MaxIterations', 100, 'MaxStallIterations', 20
+learning_perc = 0.8;
+bound_perc = 0.2;
+k_cross_validation = 5;
+
+
+Iteracja: 1
+SubtractiveClustering - Fuzzy Inference System
+correctly classified samples in learning set: 95.10%
+correctly classified samples in testing set: 91.43%
+Optimization ended: relative change in the objective value 
+over the last OPTIONS.MaxStallIterations iterations is less than OPTIONS.FunctionTolerance.
+Particle Swarm Optimization - Fuzzy Inference System
+correctly classified samples in learning set: 90.91%
+correctly classified samples in testing set: 85.71%
+
+
+Iteracja: 2
+SubtractiveClustering - Fuzzy Inference System
+correctly classified samples in learning set: 96.50%
+correctly classified samples in testing set: 82.86%
+Optimization ended: relative change in the objective value 
+over the last OPTIONS.MaxStallIterations iterations is less than OPTIONS.FunctionTolerance.
+Particle Swarm Optimization - Fuzzy Inference System
+correctly classified samples in learning set: 87.41%
+correctly classified samples in testing set: 77.14%
+
+
+Iteracja: 3
+SubtractiveClustering - Fuzzy Inference System
+correctly classified samples in learning set: 96.50%
+correctly classified samples in testing set: 91.43%
+Optimization ended: relative change in the objective value 
+over the last OPTIONS.MaxStallIterations iterations is less than OPTIONS.FunctionTolerance.
+Particle Swarm Optimization - Fuzzy Inference System
+correctly classified samples in learning set: 88.81%
+correctly classified samples in testing set: 94.29%
+
+
+Iteracja: 4
+SubtractiveClustering - Fuzzy Inference System
+correctly classified samples in learning set: 94.41%
+correctly classified samples in testing set: 85.71%
+Optimization ended: relative change in the objective value 
+over the last OPTIONS.MaxStallIterations iterations is less than OPTIONS.FunctionTolerance.
+Particle Swarm Optimization - Fuzzy Inference System
+correctly classified samples in learning set: 92.31%
+correctly classified samples in testing set: 85.71%
+
+
+Iteracja: 5
+SubtractiveClustering - Fuzzy Inference System
+correctly classified samples in learning set: 97.20%
+correctly classified samples in testing set: 82.86%
+Optimization ended: relative change in the objective value 
+over the last OPTIONS.MaxStallIterations iterations is less than OPTIONS.FunctionTolerance.
+Particle Swarm Optimization - Fuzzy Inference System
+correctly classified samples in learning set: 83.92%
+correctly classified samples in testing set: 82.86%
+
+
+Result:
+       Description        SC_u     PSO_u      SC_t     PSO_t 
+    _________________    ______    ______    ______    ______
+
+    "Iteracja: 1 (%)"    95.105    90.909    91.429    85.714
+    "Iteracja: 2 (%)"    96.503    87.413    82.857    77.143
+    "Iteracja: 3 (%)"    96.503    88.811    91.429    94.286
+    "Iteracja: 4 (%)"    94.406    92.308    85.714    85.714
+    "Iteracja: 5 (%)"    97.203    83.916    82.857    82.857
+    "Średnie (%)"        95.944    88.671    86.857    85.143
+    "Odchylenie std"     1.1491    3.2576    4.3331    6.1941
+
+Elapsed time is 427.304556 seconds.
+>> 
